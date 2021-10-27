@@ -156,6 +156,9 @@
 }
 
 /* section 3 */
+.section3{
+    margin: 0 auto;
+}
 .section3-div{
     margin-top: 100px;
     /* margin-left: 510px; */
