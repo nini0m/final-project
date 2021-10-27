@@ -44,8 +44,9 @@
 }
 .header-div-bottom{
     margin-top: 115px;
-    margin-left: 350px;
+    /* margin-left: 350px; */
     width: 586px;
+    margin: 0 auto;
 }
 .header-bottom-p{
     font-size: 21px;
@@ -138,7 +139,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
 }
 .section2-p{
     font-size: 32px;
@@ -158,7 +158,8 @@
 /* section 3 */
 .section3-div{
     margin-top: 100px;
-    margin-left: 510px;
+    /* margin-left: 510px; */
+    margin: 0 auto;
 }
 .section3-header{
     font-size: 16px;
@@ -182,7 +183,8 @@
     justify-content: space-between;
     margin-top:67px;
     margin-bottom: 70px;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    margin: 0 auto;
 }
 .section3-smalldiv{
     display: flex;
@@ -226,7 +228,8 @@
 }
 .section4-smalldiv{
     margin-top: 90px;
-    margin-left: 370px;
+    /* margin-left: 370px; */
+    margin: 0 auto;
     width: 500px;
 }
 .section4-header{
@@ -245,7 +248,8 @@
 }
 .email-div{
     margin-top: 15px;
-    margin-left: 460px;
+    /* margin-left: 460px; */
+    margin: 0 auto;
 }
 .emailinput{
     width: 260px;
@@ -261,7 +265,8 @@
 /* section 5 */
 .section5-div{
     margin-top: 70px;
-    margin-left: 510px;
+    /* margin-left: 510px; */
+    margin: 0 auto;
 }
 .section5-header{
     font-size: 16px;
@@ -306,6 +311,7 @@
 }
 .review-div{
     display: inline-block;
+    margin: 0 auto;
 }
 .section5-bottom-p{
     font-family: 'Architects Daughter', cursive;
