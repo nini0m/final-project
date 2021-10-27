@@ -129,7 +129,8 @@
     justify-content: space-between;
     margin-top:107px;
     margin-bottom: 70px;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    margin: 0 auto;
 }
 .section2-smalldiv{
     width: 155px;
@@ -137,6 +138,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .section2-p{
     font-size: 32px;
