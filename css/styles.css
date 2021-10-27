@@ -54,10 +54,16 @@
     padding-left: 180px;
     font-family: 'Poppins';
 }
+.header-bottom-p:hover{
+    color: black;
+}
 .header-bottom-h2{
     font-size: 78.74px;
     color: #FFFFFF;
     padding-top: 20px;
+}
+.header-bottom-h2:hover{
+    color: black;
 }
 .header-bottom-p2{
     font-size: 18px;
@@ -66,6 +72,10 @@
     padding-top: 25px;
     font-family: 'Poppins';
 }
+.header-bottom-p2:hover{
+    color: black;
+}
+
 /* section 1 */
 .section1{
     display: flex;
@@ -98,10 +108,17 @@
 .container-image{
     width: 300px;
 }
-.container-heading{
+.container-image:hover{
+    width: 330px;
+    border-radius: 20px;
+}
+.section-a{
     color: #1A1A1B;
     font-weight: bolder;
     padding-top: 10px;
+}
+.section-a:hover{
+    color: cadetblue;
 }
 
 /* section 2 */
@@ -130,6 +147,10 @@
 .section2-p2{
     font-size: 16px;
     color: #1A1A1B;
+}
+.section2-smalldiv:hover{
+    background-color: lightblue;
+    border-radius: 17px;
 }
 
 /* section 3 */
@@ -166,6 +187,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.section3-image:hover{
+    width: 300px;
+    border-radius: 20px;
 }
 .section3-p{
     font-size: 14px;
@@ -292,9 +317,8 @@
     background-color: lightblue;
 }
 .section6-div{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
 }
 .form-header{
     font-size: 30px;
@@ -318,10 +342,28 @@
     margin-top: 20px;
     width: 400px;
 }
+.contact-info-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.list-a{
+    color: black;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+}
+.list-a:hover{
+    color: cornflowerblue;
+}
+
+/* section 7 */
 .map-div{
-    margin-left: 20px;
-    width:90%;
+    width:80%;
     height: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .map{
     width: 100%;
@@ -330,45 +372,35 @@
 
 /* footer */
 .footer{
-    height: 200px;
-    background-color: lightgray;
+    height: 150px;
+    background-color: lightblue;
 }
 .footer-div{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-}
-.footer-list {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    display: inline-block;
-    margin-left: 75px;  
- }
- .footer-title {
-    height: 18px;
-    margin-right: 75px;
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-    display: inline-block;
-}
-.footer-list:nth-child(1) {
-    font-family: 'Architects Daughter', cursive;
-}
-.ul {
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    align-items: center;
 }
-.ul-li {  
-    font-size: 14px;
-    color: #FFFFFF; 
-    margin-bottom: 10px; 
-    font-family: 'Architects Daughter', cursive; 
+.footer-list{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
 }
-.la {
-    color: #FFFFFF;
+.footer-element{
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 25px;
+}
+.footer-element:hover{
+    color: cornflowerblue
+}
+.copyright{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.social-icons{
+    margin-top: 10px;
+    font-size: 20px;
 }
 .email-div2{
     margin-top: 40px;

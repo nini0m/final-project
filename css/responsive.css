@@ -9,10 +9,56 @@
         font-size: 14px;
     }
     .header-div-bottom{
-        margin-left: 160px;
+        margin: 0 auto;
+    }
+    .header-bottom-p{
+        margin-top: 80px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .header-bottom-h2{
+        font-size: 50px;
+        margin-left: 80px;
+    }
+    .header-bottom-p2{
+        font-size: 14px;
+        margin-left: 30px;
     }
     .section2{
         display: flex;
-        margin-right: 70px;
+        flex-wrap: wrap;
+    }
+    .section2-div{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .section3-div{
+        display: none;
+    }
+    .section3-div2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    .section4{
+        margin-top: 20px;
+    }
+    .section4-background{
+        width: 100%;
+    }
+    .section4-smalldiv{
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    .email-div{
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .section5-div{
+        display: none;
     }
 }
