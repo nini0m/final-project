@@ -5,9 +5,10 @@ document.getElementById('send').addEventListener('click', function(){
     alert('Your information is sent.')
 })
 
-let Navigation=document.getElementById('NavigationID');
-let burgerIcon=document.getElementById('burgerIcon');
+
+let Navigation=document.getElementById("Navigation");
+let burgerIcon=document.getElementById("burgerbar");
 
 burgerIcon.addEventListener('click', function() {
-  Navigation.classList.toggle('active');
+    Navigation.classList.toggle("active");
 });

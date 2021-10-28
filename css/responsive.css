@@ -33,9 +33,6 @@
         margin: 0 auto;
         margin-top: 50px;
     }
-    /* .section3-div{
-        display: none;
-    } */
     .section3-div2{
         display: flex;
         flex-wrap: wrap;
@@ -53,11 +50,6 @@
         margin: 0 auto;
         margin-top: 70px;
     }
-    /* .email-div{
-        width: 25%;
-        margin: 0 auto;
-        margin-top: 10px;
-    } */
     .section5-div{
         display: none;
     }
@@ -69,15 +61,22 @@
     .div-burgerbar{
         display: block;
     }
+    .header-ul{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .header-nav.active{
+        display: block;
+    }
     .header-logo{
         margin-left: 30px;
     }
     .container{
         display: flex;
         flex-wrap: wrap;
-        margin: 0 auto;
         width: 40%;
         padding-left: 10px;
+        align-items: center;
     }
     .container-div{
         padding-top: 25px;
@@ -86,10 +85,16 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .section3-div2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        padding-left: 10px;
+        align-items: center;
+    }
     .section4-div{
         max-width: 550px;
         width: 100%;
-        /* left: 10px; */
         top:50px;
     }
     .section4-smalldiv{
@@ -112,13 +117,17 @@
     .div-burgerbar{
         margin-top: 0px;
         margin-left: 0px;
+        font-size: 20px;
+    }
+    .header-background{
+        height: 200px;
     }
     .header-div-bottom{
         margin-top: 10px;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        display: flex;
     }
     .section1-div{
         font-size: 10px;
@@ -136,7 +145,6 @@
     .section4-div{
         max-width: 300px;
         width: 100%;
-        /* left: 10px; */
         top:50px;
     }
     .section4-smalldiv{
@@ -144,7 +152,8 @@
         margin: 0 auto;
     }
     .section6{
-        width: 80%;
+        width: 100%;
+        margin: 0 auto;
     }
     .form-div{
         max-width: 300px;
@@ -176,10 +185,10 @@
     }
     .header-div-bottom{
         margin-top: 10px;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        display: flex;
     }
     .header-bottom-p{
         padding-left: 0px;
@@ -191,28 +200,22 @@
         padding-left: 0px;
     }
     .container{
-        width: 20%;
         margin: 0 auto;
         margin-left: 0px;
     }
-    ..section2-div{
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 50px;
+    .section3-div2{
+        margin-right: 200px;
     }
     .section4-background{
         width: 100%;
     }
     .section4-div{
-        /* max-width: 70px;
-        width: 70%; */
-        /* left: 10px; */
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .section4-header{
-        font-size: 15px;
+        font-size: 14px;
         margin-left: 0 auto;
     }
     .email-div{
@@ -228,10 +231,13 @@
         align-items: center;
     }
     .section6{
-        width: 80%;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
     }
     .form-input{
-        width: 300px;
+        max-width: 280px;
+        width: 90%;
     }
     .button2{
         width: 300px;

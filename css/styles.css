@@ -44,10 +44,6 @@
 }
 .header-div-bottom{
     margin-top: 115px;
-    /* margin-left: 350px;
-    width: 586px; */
-    /* width: 70%;
-    margin: 0 auto; */
 }
 .header-bottom-p{
     font-size: 21px;
@@ -131,14 +127,11 @@
     margin-top: 50px;
 }
 .section2-div{
-    /* max-width: 1000px; */
     width: 60%;
     display: flex;
     justify-content: space-between;
-    /* margin-top:107px; */
     margin-bottom: 70px;
     margin: 0 auto;
-    /* margin-left: 120px; */
 }
 .section2-smalldiv{
     width: 155px;
@@ -165,7 +158,6 @@
 /* section 3 */
 .section3-div{
     margin-top: 100px;
-    /* margin-left: 510px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,14 +175,12 @@
     margin-left: 6px;
 }
 .section3-div2{
-    /* max-width: 1000px; */
     width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-top:67px;
     margin-bottom: 70px;
-    /* margin-left: 120px; */
 }
 .section3-smalldiv{
     display: flex;
@@ -217,12 +207,6 @@
 }
 
 /* section 4 */
-/* .section4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 .section4-background{
     background-image: url(../images/wp3176613.jpg);
     width:100%;
@@ -236,11 +220,6 @@
     justify-content: center;
     align-items: center;
 }
-/* .section4-smalldiv{
-    margin-top: 90px;
-    margin-left: 370px;
-    width: 500px;
-} */
 .section4-header{
     font-size: 34px;
     font-weight: bold;
@@ -250,7 +229,6 @@
 }
 .section4-p{
     margin-top: 15px;
-    /* margin-left: 100px; */
     font-size: 18px;
     font-weight: bold;
     font-family: 'Architects Daughter', cursive;
@@ -276,24 +254,15 @@
     margin: 0 auto;
 }
 .section5-div{
-    /* margin-top: 70px;
-    margin-left: 510px; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* .section5-header{
-    font-size: 16px;
-    font-weight: normal;
-    color: #8D8D8D;
-    padding-left: 70px;
-} */
 .section5-header{
     font-size: 25px;
     font-weight: bold;
     color: #1A1A1B;
     padding-top: 50px;
-    /* margin-left: 25px; */
 }
 .section5-header:hover{
     color: cornflowerblue;
