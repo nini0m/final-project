@@ -53,11 +53,11 @@
         margin: 0 auto;
         margin-top: 70px;
     }
-    .email-div{
+    /* .email-div{
         width: 25%;
         margin: 0 auto;
         margin-top: 10px;
-    }
+    } */
     .section5-div{
         display: none;
     }
@@ -75,6 +75,12 @@
     .container{
         display: flex;
         flex-wrap: wrap;
+        margin: 0 auto;
+        width: 40%;
+        padding-left: 10px;
+    }
+    .container-div{
+        padding-top: 25px;
     }
     .section2-div{
         display: flex;
@@ -85,7 +91,7 @@
         margin: 0 auto;
     }
     .email-div{
-        width: 45%;
+        width: 65%;
         margin: 0 auto;
     }
 }
@@ -99,5 +105,95 @@
     }
     .section1-div{
         font-size: 10px;
+    }
+    .header-bottom-h2{
+        font-size: 15px;
+    }
+    .header-bottom-p2{
+        font-size: 10px;
+    }
+    .section2-div{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .section4-div{
+        max-width: 400px;
+        width: 100%;
+        /* left: 10px; */
+        top:50px;
+    }
+}
+@media (max-width:320px){
+    .header-background{
+        height: 200px;
+    }
+    .div-burgerbar{
+        font-size: 20px;
+    }
+    .header-div-bottom{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .header-bottom-p{
+        padding-left: 0px;
+    }
+    .header-bottom-h2{
+        margin-left: 0px;
+    }
+    .header-bottom-p2{
+        padding-left: 0px;
+    }
+    .container{
+        width: 20%;
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+    .section4-background{
+        width: 100%;
+    }
+    .section4-div{
+        /* max-width: 70px;
+        width: 70%; */
+        /* left: 10px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section4-header{
+        font-size: 15px;
+        margin-left: 0 auto;
+    }
+    .email-div{
+        margin-left: 0px;
+        margin: 0 auto;
+        width: 230px;
+    }
+    .star-image{
+        display: none;
+    }
+    .section5-div-top{
+        display: flex;
+        align-items: center;
+    }
+    .section6{
+        width: 100%;
+    }
+    .form-input{
+        width: 300px;
+    }
+    .button2{
+        width: 300px;
+    }
+    .footer{
+        height: 170px;
+    }
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
