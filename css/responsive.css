@@ -242,12 +242,15 @@
         max-width: 310px;
         width: 100%;
     }
-    .form-div{
+    .form-box{
+        width: 100px;
+    }
+    /* .form-div{
         width: 100px;
     }
     .button2{
         width: 100px;
-    }
+    } */
     .footer{
         height: 170px;
     }
