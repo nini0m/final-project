@@ -243,6 +243,7 @@
     .section5-div-top{
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     .section6{
         width: 100%;
