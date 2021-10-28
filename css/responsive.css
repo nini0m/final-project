@@ -122,6 +122,15 @@
         /* left: 10px; */
         top:50px;
     }
+    .footer{
+        height: 170px;
+    }
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 @media (max-width:320px){
     .header-background{
@@ -150,6 +159,11 @@
         width: 20%;
         margin: 0 auto;
         margin-left: 0px;
+    }
+    ..section2-div{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 50px;
     }
     .section4-background{
         width: 100%;
