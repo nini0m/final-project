@@ -230,7 +230,12 @@
         display: flex;
         align-items: center;
     }
-    .section6{
+    /* .section6{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    } */
+    .section6-div{
         max-width: 300px;
         width: 100%;
         margin: 0 auto;
