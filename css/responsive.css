@@ -243,7 +243,8 @@
         width: 100%;
     }
     .form-box{
-        width: 300px;
+        /* width: 300px; */
+        width: 100%;
     }
     .footer{
         height: 170px;
