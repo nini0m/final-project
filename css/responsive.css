@@ -165,6 +165,10 @@
         width: 50%;
         margin: 0 auto;
     }
+    .review-div{
+        max-width: 400px;
+        width: 90%;
+    }
     .section6{
         width: 100%;
         margin: 0 auto;
@@ -244,6 +248,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .review-div{
+        max-width: 300px;
+        width: 90%;
     }
     .section6{
         width: 100%;
