@@ -230,11 +230,9 @@
         display: flex;
         align-items: center;
     }
-    /* .section6{
-        max-width: 300px;
+    .section6{
         width: 100%;
-        margin: 0 auto;
-    } */
+    }
     .section6-div{
         max-width: 300px;
         width: 100%;
@@ -244,8 +242,11 @@
         max-width: 310px;
         width: 100%;
     }
+    .form-div{
+        width: 200px;
+    }
     .button2{
-        width: 300px;
+        width: 200px;
     }
     .footer{
         height: 170px;
