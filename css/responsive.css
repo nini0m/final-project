@@ -86,9 +86,19 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .section4-div{
+        max-width: 550px;
+        width: 100%;
+        /* left: 10px; */
+        top:50px;
+    }
     .section4-smalldiv{
         width: 65%;
         margin: 0 auto;
+    }
+    .section4-header{
+        font-size: 15px;
+        margin-left: 0 auto;
     }
     .email-div{
         width: 65%;
@@ -102,6 +112,13 @@
     .div-burgerbar{
         margin-top: 0px;
         margin-left: 0px;
+    }
+    .header-div-bottom{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
     .section1-div{
         font-size: 10px;
@@ -117,10 +134,28 @@
         margin: 0 auto;
     }
     .section4-div{
-        max-width: 400px;
+        max-width: 300px;
         width: 100%;
         /* left: 10px; */
         top:50px;
+    }
+    .section4-smalldiv{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .section6{
+        width: 80%;
+    }
+    .form-div{
+        max-width: 300px;
+    }
+    .form-input{
+        max-width: 300px;
+        width: 100%;
+    }
+    .button2{
+        max-width: 300px;
+        width: 100%;
     }
     .footer{
         height: 170px;
@@ -193,7 +228,7 @@
         align-items: center;
     }
     .section6{
-        width: 100%;
+        width: 80%;
     }
     .form-input{
         width: 300px;
