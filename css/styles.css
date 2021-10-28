@@ -44,8 +44,10 @@
 }
 .header-div-bottom{
     margin-top: 115px;
-    margin-left: 350px;
-    width: 586px;
+    /* margin-left: 350px;
+    width: 586px; */
+    /* width: 70%;
+    margin: 0 auto; */
 }
 .header-bottom-p{
     font-size: 21px;
@@ -125,14 +127,18 @@
 }
 
 /* section 2 */
+.section2{
+    margin-top: 50px;
+}
 .section2-div{
-    max-width: 1000px;
-    width: 100%;
+    /* max-width: 1000px; */
+    width: 60%;
     display: flex;
     justify-content: space-between;
-    margin-top:107px;
+    /* margin-top:107px; */
     margin-bottom: 70px;
-    margin-left: 120px;
+    margin: 0 auto;
+    /* margin-left: 120px; */
 }
 .section2-smalldiv{
     width: 155px;
@@ -158,8 +164,8 @@
 
 /* section 3 */
 .section3-div{
-    /* margin-top: 100px;
-    margin-left: 510px; */
+    margin-top: 100px;
+    /* margin-left: 510px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,13 +183,14 @@
     margin-left: 6px;
 }
 .section3-div2{
-    max-width: 1000px;
-    width: 100%;
+    /* max-width: 1000px; */
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-top:67px;
     margin-bottom: 70px;
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 .section3-smalldiv{
     display: flex;
@@ -248,10 +255,10 @@
     font-weight: bold;
     font-family: 'Architects Daughter', cursive;
 }
-/* .email-div{
+.email-div{
     margin-top: 15px;
-    margin-left: 460px;
-} */
+    margin-right: 85px;
+}
 .emailinput{
     width: 260px;
     font-family: 'Architects Daughter', cursive;
@@ -264,6 +271,10 @@
 }
 
 /* section 5 */
+.section5{
+    width: 80%;
+    margin: 0 auto;
+}
 .section5-div{
     /* margin-top: 70px;
     margin-left: 510px; */
@@ -317,7 +328,6 @@
 }
 .review-div{
     display: inline-block;
-    margin: 0 auto;
 }
 .section5-bottom-p{
     font-family: 'Architects Daughter', cursive;
